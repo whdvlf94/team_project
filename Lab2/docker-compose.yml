@@ -1,7 +1,7 @@
 version: '3'
 services:
   drupal:
-    image: my-drupal
+    image: drupal:8.6
     ports:
       - "8080:80"
     volumes:
